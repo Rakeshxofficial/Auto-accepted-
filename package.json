@@ -1,0 +1,19 @@
+{
+  "name": "telegram-join-request-bot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Telegram bot that automatically accepts join requests after a delay",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
